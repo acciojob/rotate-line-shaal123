@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#line {
+    width: 200px;
+    height: 2px;
+    background-color: #000000;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform-origin: left center;
+}
+```
